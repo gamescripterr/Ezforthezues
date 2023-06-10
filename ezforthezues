@@ -1,0 +1,117 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "HolyWare | Free",
+   LoadingTitle = "HolyWare | Free",
+   LoadingSubtitle = ".gg/holyware",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "FuckNiggersintheass",
+      FileName = "FuckNiggersintheass"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "holyware", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true, -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "HolyWare | Key System",
+      Subtitle = "Key System",
+      Note = "Buy a Key from discord.gg/holyware",
+      FileName = "FuckNiggersintheass", 
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"7X0C5N10M", "ModOnlyAccesEz"},
+   }
+})
+
+local Tab = Window:CreateTab("Paid Stuff", 4483362458) -- Title, Image
+
+Tab:CreateButton({
+	Name = "Aimviewer",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Xh4Qawtb"))()
+    end,
+})
+
+Tab:CreateButton({
+	Name = "Azure Modded",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SH5Pyji6"))()
+      end,
+})
+
+Tab:CreateButton({
+	Name = "Yun V2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gamescripterr/yunv2/main/Yunleakez/leakedbydtbbullet"))()
+      end,
+})
+
+Tab:CreateButton({
+	Name = "Tenaki Camlock",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/cL3dnE7b"))()
+    end,
+  })
+
+Tab:CreateButton({
+	Name = "Nyula",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();
+    end,
+  })
+
+Tab:CreateButton({
+	Name = "Scape",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nT2XzsBF"))()
+    end,
+  })
+
+Tab:CreateButton({
+	Name = "Mobile Lock Tool",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchipsformorecoolscript", true))()
+      end,
+})
+
+Tab:CreateButton({
+	Name = "Fake Limiteds",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Yyp2h5Sf'),true))()
+      end,
+})
+
+local Other = Window:CreateTab("Other Things", 4483362458) -- Title, Image
+
+Other:CreateButton({
+	Name = "Q tool",
+	Callback = function()
+getgenv().keytoclick = "Q"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Q"
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = ".gg/holyware";
+Title = "Q Tool added.";
+Duration = 10;
+});
+  	end,
+})
+
+Other:CreateButton({
+	Name = "Mobile Keyboard",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+      end,
+})
