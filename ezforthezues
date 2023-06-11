@@ -78,10 +78,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzch
 })
 
 Tab:CreateButton({
-	Name = "Fake Limiteds",
+	Name = "Kirbsware antilock",
 	Callback = function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Yyp2h5Sf'),true))()
-      end,
+loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()      end,
 })
 
 local Other = Window:CreateTab("Other Things", 4483362458) -- Title, Image
